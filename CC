@@ -1,0 +1,24 @@
+local RainbowPart = script.Parent
+
+RainbowPart.CanCollide = true
+RainbowPart.Anchored = true
+
+RainbowPart.BrickColor = BrickColor.new ("Really red")
+wait (1)
+RainbowPart.BrickColor = BrickColor.new ("Neon orange")
+wait (1)
+RainbowPart.BrickColor = BrickColor.new ("New Yeller")
+wait (1)
+RainbowPart.BrickColor = BrickColor.new ("Bright Green")
+wait (1)
+RainbowPart.BrickColor = BrickColor.new ("Baby blue")
+wait (1)
+RainbowPart.BrickColor = BrickColor.new ("Pink")
+wait (1)
+RainbowPart.BrickColor = BrickColor.new ("Royal purple")
+wait (1)
+
+RainbowPart.Transparency = 1
+RainbowPart.Anchored = false
+RainbowPart.Locked = true
+RainbowPart.CanCollide = false
